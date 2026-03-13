@@ -24,8 +24,8 @@ EnvironmentSetVariable("IMGUI_DIALOG_CAPTION", window_get_caption());
 // Embed All Dialogs in Main Game Window (Windows-Only):
 EnvironmentSetVariable("IMGUI_DIALOG_EMBEDDED", string(true));
 
-// Do Not Display File Dialogs in Borderless Mode (Default Behavior):
-EnvironmentSetVariable("IMGUI_DIALOG_NOBORDER", string(false));
+// Display All Dialogs in Borderless Mode:
+EnvironmentSetVariable("IMGUI_DIALOG_NOBORDER", string(true));
 
 // Do Not Display Any Dialog as a Fullscreen Window (Default Behavior):
 EnvironmentSetVariable("IMGUI_DIALOG_FULLSCREEN", string(false));
