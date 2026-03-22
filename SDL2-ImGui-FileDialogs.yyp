@@ -194,7 +194,6 @@
     "IDEVersion": "2023.11.0.121",
   },
   "resources": [
-    {"id":{"name":"libxprocess","path":"extensions/libxprocess/libxprocess.yy",},},
     {"id":{"name":"scr_example","path":"scripts/scr_example/scr_example.yy",},},
     {"id":{"name":"libfilesystem","path":"extensions/libfilesystem/libfilesystem.yy",},},
     {"id":{"name":"fnt_example","path":"fonts/fnt_example/fnt_example.yy",},},
