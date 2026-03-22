@@ -40,7 +40,7 @@ if (nDialogId == 8) { nDialogResult = GetNumber("Enter a number in the input box
 if (nDialogId == 9) environment_set_variable("IMGUI_DIALOG_PASSWORD", string(true));
 
 // Enter a String in the TextBox and Echo the Result if the Result is Not Empty
-if (nDialogId == 9) { lpDialogResult = GetNumber("Enter a string in the password box below:", "ENTER TEXT HERE"); alarm[0] = 10; }
+if (nDialogId == 9) { lpDialogResult = GetString("Enter a string in the password box below:", "ENTER TEXT HERE"); alarm[0] = 10; }
 
 // Enter a Number in the TextBox and Echo the Result
 if (nDialogId == 10) { nDialogResult = GetNumber("Enter a number in the password box below:", 404); alarm[0] = 10; }
