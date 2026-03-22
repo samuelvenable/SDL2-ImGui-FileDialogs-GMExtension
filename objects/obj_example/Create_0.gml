@@ -19,39 +19,39 @@ DialogSetLocaleToAmericanEnglish();
 DialogSetWindowSize(720, 394);
 
 // Set Title Bar Caption of Non-File-or-Directory-Selection Dialogs:
-EnvironmentSetVariable("IMGUI_DIALOG_CAPTION", window_get_caption());
+environment_set_variable("IMGUI_DIALOG_CAPTION", window_get_caption());
 
 // Embed All Dialogs in Main Game Window (Windows-Only):
-EnvironmentSetVariable("IMGUI_DIALOG_EMBEDDED", string(true));
+environment_set_variable("IMGUI_DIALOG_EMBEDDED", string(true));
 
 // Do Not Display Any Dialogs in Borderless Mode (Default Behavior):
-EnvironmentSetVariable("IMGUI_DIALOG_NOBORDER", string(false));
+environment_set_variable("IMGUI_DIALOG_NOBORDER", string(false));
 
 // Do Not Display Any Dialog as a Fullscreen Window (Default Behavior):
-EnvironmentSetVariable("IMGUI_DIALOG_FULLSCREEN", string(false));
+environment_set_variable("IMGUI_DIALOG_FULLSCREEN", string(false));
 
 // Select a Custom Theme for All Dialogs: 
 // Classic=-1, Dark=0, Light=1, Custom=2
 // Example themes -1 to 1 are from ImGui
-EnvironmentSetVariable("IMGUI_DIALOG_THEME", string(2));
+environment_set_variable("IMGUI_DIALOG_THEME", string(2));
 
 // Set the Custom Color Theme:
 // Color Scheme (R,G,B=0,1,2) 
-EnvironmentSetVariable("IMGUI_TEXT_COLOR_0", string(1));
-EnvironmentSetVariable("IMGUI_TEXT_COLOR_1", string(1));
-EnvironmentSetVariable("IMGUI_TEXT_COLOR_2", string(1));
-EnvironmentSetVariable("IMGUI_HEAD_COLOR_0", string(0.35));
-EnvironmentSetVariable("IMGUI_HEAD_COLOR_1", string(0.55));
-EnvironmentSetVariable("IMGUI_HEAD_COLOR_2", string(0.55));
-EnvironmentSetVariable("IMGUI_AREA_COLOR_0", string(0.18));
-EnvironmentSetVariable("IMGUI_AREA_COLOR_1", string(0.18));
-EnvironmentSetVariable("IMGUI_AREA_COLOR_2", string(0.18));
-EnvironmentSetVariable("IMGUI_BODY_COLOR_0", string(1));
-EnvironmentSetVariable("IMGUI_BODY_COLOR_1", string(1));
-EnvironmentSetVariable("IMGUI_BODY_COLOR_2", string(1));
-EnvironmentSetVariable("IMGUI_POPS_COLOR_0", string(0.07));
-EnvironmentSetVariable("IMGUI_POPS_COLOR_1", string(0.07));
-EnvironmentSetVariable("IMGUI_POPS_COLOR_2", string(0.07));
+environment_set_variable("IMGUI_TEXT_COLOR_0", string(1));
+environment_set_variable("IMGUI_TEXT_COLOR_1", string(1));
+environment_set_variable("IMGUI_TEXT_COLOR_2", string(1));
+environment_set_variable("IMGUI_HEAD_COLOR_0", string(0.35));
+environment_set_variable("IMGUI_HEAD_COLOR_1", string(0.55));
+environment_set_variable("IMGUI_HEAD_COLOR_2", string(0.55));
+environment_set_variable("IMGUI_AREA_COLOR_0", string(0.18));
+environment_set_variable("IMGUI_AREA_COLOR_1", string(0.18));
+environment_set_variable("IMGUI_AREA_COLOR_2", string(0.18));
+environment_set_variable("IMGUI_BODY_COLOR_0", string(1));
+environment_set_variable("IMGUI_BODY_COLOR_1", string(1));
+environment_set_variable("IMGUI_BODY_COLOR_2", string(1));
+environment_set_variable("IMGUI_POPS_COLOR_0", string(0.07));
+environment_set_variable("IMGUI_POPS_COLOR_1", string(0.07));
+environment_set_variable("IMGUI_POPS_COLOR_2", string(0.07));
 
 // Desired Font Size:
 DialogSetFontSize(20);
@@ -63,7 +63,7 @@ DialogSetFontFolder(working_directory + "fonts");
 // Absolute Paths for Every File in the List of ttf and otf files you choose are Recommended for Use
 #region fonts
 /*
-EnvironmentSetVariable("IMGUI_FONT_FILES", 
+environment_set_variable("IMGUI_FONT_FILES", 
 working_directory + string_lower("fonts/000-Roboto-Medium.ttf\n") +
 working_directory + string_lower("fonts/001-NotoKufiArabic-Regular.ttf\n") +
 working_directory + string_lower("fonts/002-NotoMusic-Regular.ttf\n") +

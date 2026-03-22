@@ -22,8 +22,12 @@ if (nDialogId == 7) { ShowMessage(lpDialogResult); }
 
 if (nDialogId == 8) { ShowMessage(nDialogResult); }
 
+if (nDialogId == 9) { ShowMessage(lpDialogResult); }
+
+if (nDialogId == 10) { ShowMessage(nDialogResult); }
+
 // Next Dialog
 nDialogId++;
 
 // End of Demo
-if (nDialogId == 9) nDialogId = 0;
+if (nDialogId == 11) nDialogId = 0;
