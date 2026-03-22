@@ -27,7 +27,7 @@ if (nDialogId == 6) { lpDialogResult = GetDirectory("Select Directory", ""); ala
 // Force GetString/Number calls to have a Cancel Button
 if (nDialogId == 7) environment_set_variable("IMGUI_DIALOG_CANCELABLE", string(true));
 
-// Force get_string/integer calls to not have Password Input
+// Force GetString/Number calls to not have Password Input
 if (nDialogId == 7) environment_set_variable("IMGUI_DIALOG_PASSWORD", string(false));
 
 // Enter a String in the TextBox and Echo the Result if the Result is Not Empty
@@ -36,7 +36,7 @@ if (nDialogId == 7) { lpDialogResult = GetString("Enter a string in the input bo
 // Enter a Number in the TextBox and Echo the Result
 if (nDialogId == 8) { nDialogResult = GetNumber("Enter a number in the input box below:", 404); alarm[0] = 10; }
 
-// Force get_string/integer calls to have Password Input
+// Force GetString/Number calls to have Password Input
 if (nDialogId == 9) environment_set_variable("IMGUI_DIALOG_PASSWORD", string(true));
 
 // Enter a String in the TextBox and Echo the Result if the Result is Not Empty
