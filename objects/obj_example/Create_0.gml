@@ -1,7 +1,3 @@
-// Ubuntu export needs packages installed to work
-// Run the following terminal command to install:
-// sudo apt update && sudo apt install libgtk-3-dev libglib2.0-dev
-
 // Remember the Good Old Days of GameMaker 8.1 and before?
 // Remember the super customizable Mark Overmars PopUpBox?
 // Well, they're back, and potentially better than ever...
@@ -17,6 +13,10 @@ DialogSetLocaleToAmericanEnglish();
 
 // Set Window Size for Dialogs:
 DialogSetWindowSize(720, 394);
+
+// Set 32x32px *.png for Files/Folders in File-and-Directory-Selection Dialogs:
+environment_set_variable("IMGUI_FILE_ICON", working_directory + "icons/file_icon.png");
+environment_set_variable("IMGUI_FOLDER_ICON", working_directory + "icons/folder_icon.png");
 
 // Set Title Bar Caption of Non-File-or-Directory-Selection Dialogs:
 environment_set_variable("IMGUI_DIALOG_CAPTION", window_get_caption());
@@ -226,3 +226,4 @@ working_directory + string_lower("fonts/157-NotoSansHK-Regular.otf"));
 #endregion
 
 nDialogId = 0;
+
