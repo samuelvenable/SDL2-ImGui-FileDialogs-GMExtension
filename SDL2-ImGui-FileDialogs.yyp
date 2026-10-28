@@ -187,6 +187,8 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"157-NotoSansHK-Regular.otf","CopyToMask":-1,"filePath":"datafiles/fonts",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Noto-License.txt","CopyToMask":-1,"filePath":"datafiles/fonts",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Roboto-License.txt","CopyToMask":-1,"filePath":"datafiles/fonts",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"file_icon.png","CopyToMask":-1,"filePath":"datafiles/icons",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"folder_icon.png","CopyToMask":-1,"filePath":"datafiles/icons",},
   ],
   "isEcma": false,
   "LibraryEmitters": [],
