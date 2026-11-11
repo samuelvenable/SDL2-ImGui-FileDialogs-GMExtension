@@ -12,13 +12,13 @@
   "androidsourcedir": "",
   "author": "",
   "classname": "",
-  "copyToTargets": 194,
+  "copyToTargets": 66,
   "date": "2022-04-28T23:04:41.2874079-04:00",
   "description": "",
   "exportToGame": true,
   "extensionVersion": "0.0.1",
   "files": [
-    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libfiledialogs.dll","constants":[],"copyToTargets":194,"filename":"libfiledialogs.dll","final":"","functions":[
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libfiledialogs.dll","constants":[],"copyToTargets":66,"filename":"libfiledialogs.dll","final":"","functions":[
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"_GetOpenFileName","argCount":0,"args":[
             1,
             1,
@@ -41,7 +41,6 @@
             1,
             1,
           ],"documentation":"","externalName":"get_directory_alt","help":"_GetDirectory(lpCapt,lpRoot)","hidden":true,"kind":1,"returnType":1,},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"_IfdLoadFonts","argCount":0,"args":[],"documentation":"","externalName":"ifd_load_fonts","help":"_IfdLoadFonts()","hidden":true,"kind":1,"returnType":2,},
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"_ShowMessage","argCount":0,"args":[
             1,
           ],"documentation":"","externalName":"show_message","help":"_ShowMessage(lpMsgStr)","hidden":true,"kind":1,"returnType":1,},
@@ -64,15 +63,11 @@
         {"name":"_GetOpenFileNames","path":"extensions/libfiledialogs/libfiledialogs.yy",},
         {"name":"_GetSaveFileName","path":"extensions/libfiledialogs/libfiledialogs.yy",},
         {"name":"_GetDirectory","path":"extensions/libfiledialogs/libfiledialogs.yy",},
-        {"name":"_IfdLoadFonts","path":"extensions/libfiledialogs/libfiledialogs.yy",},
         {"name":"_ShowMessage","path":"extensions/libfiledialogs/libfiledialogs.yy",},
         {"name":"_ShowQuestion","path":"extensions/libfiledialogs/libfiledialogs.yy",},
         {"name":"_ShowQuestionExt","path":"extensions/libfiledialogs/libfiledialogs.yy",},
       ],"origname":"","ProxyFiles":[
         {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libfiledialogs.dylib","TargetMask":1,},
-        {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libfiledialogs.so","TargetMask":7,},
-        {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libfiledialogs_arm.so","TargetMask":7,},
-        {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libfiledialogs_arm64.so","TargetMask":7,},
       ],"uncompress":false,"usesRunnerInterface":false,},
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libfiledialogs.zip","constants":[],"copyToTargets":0,"filename":"libfiledialogs.zip","final":"","functions":[],"init":"","kind":4,"order":[],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libfiledialogs.gml","constants":[],"copyToTargets":-1,"filename":"libfiledialogs.gml","final":"","functions":[
