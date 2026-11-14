@@ -12,13 +12,13 @@
   "androidsourcedir": "",
   "author": "",
   "classname": "",
-  "copyToTargets": 66,
+  "copyToTargets": 194,
   "date": "2022-04-28T23:04:41.2874079-04:00",
   "description": "",
   "exportToGame": true,
   "extensionVersion": "0.0.1",
   "files": [
-    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libfiledialogs.dll","constants":[],"copyToTargets":66,"filename":"libfiledialogs.dll","final":"","functions":[
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libfiledialogs.dll","constants":[],"copyToTargets":194,"filename":"libfiledialogs.dll","final":"","functions":[
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"_GetOpenFileName","argCount":0,"args":[
             1,
             1,
@@ -68,6 +68,7 @@
         {"name":"_ShowQuestionExt","path":"extensions/libfiledialogs/libfiledialogs.yy",},
       ],"origname":"","ProxyFiles":[
         {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libfiledialogs.dylib","TargetMask":1,},
+        {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libfiledialogs.so","TargetMask":7,},
       ],"uncompress":false,"usesRunnerInterface":false,},
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libfiledialogs.zip","constants":[],"copyToTargets":0,"filename":"libfiledialogs.zip","final":"","functions":[],"init":"","kind":4,"order":[],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libfiledialogs.gml","constants":[],"copyToTargets":-1,"filename":"libfiledialogs.gml","final":"","functions":[
